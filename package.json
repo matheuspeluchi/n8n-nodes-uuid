@@ -1,0 +1,57 @@
+{
+  "name": "n8n-nodes-uuid-generator",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [
+    "n8n-community-node-package",
+    "uuid"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "author": {
+    "name": "Matheus Peluchi",
+    "email": "matheuspeluchi@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://matheus_peluchi_ext@bitbucket.org/carrefour_ecommerce/infinitechs-n8n-oracle-connector.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && gulp build:icons",
+    "dev": "tsc --watch",
+    "format": "prettier nodes credentials --write",
+    "test": "jest",
+    "lint": "tslint -p tsconfig.json -c tslint.json",
+    "lintfix": "tslint --fix -p tsconfig.json -c tslint.json",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "nodes": [
+      "dist/nodes/uuid/UUIDGenerator.node.js"
+    ]
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "@types/jest": "^29.5.2",
+    "@types/request-promise-native": "~1.0.15",
+    "@types/uuid": "^9.0.2",
+    "@typescript-eslint/parser": "^5.29.0",
+    "eslint-plugin-n8n-nodes-base": "^1.5.4",
+    "gulp": "^4.0.2",
+    "jest": "^29.5.0",
+    "n8n-core": "^0.125.0",
+    "n8n-workflow": "^0.107.0",
+    "prettier": "^2.7.1",
+    "ts-jest": "^29.1.0",
+    "tslint": "^6.1.2",
+    "typescript": "~4.6.0"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0"
+  }
+}
