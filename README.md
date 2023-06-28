@@ -1,9 +1,7 @@
-# n8n-nodes-oracle-database
+# n8n-nodes-uuid-generator
 
-[Oracle](https://docs.oracle.com/en/database/oracle/oracle-database/) oracla database node for n8n
-
-To use this connector in versions prior to version 12 of the oracle database, the n8n environment needs an Oracle Instant Client dependency installed and the environment variable LD_LIBRARY_PATH pointing to the folder where the OIC (Oracle instat Client) is located.
+Simple UUID generator
 
 ## License
 
-[MIT](https://github.com/matheuspeluchi/n8n-nodes-oracle-database/blob/main/LICENSE.md)
+[MIT](https://github.com/matheuspeluchi/n8n-nodes-uuid/blob/main/LICENSE.md)
