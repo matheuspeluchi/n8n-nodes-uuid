@@ -1,7 +1,7 @@
 {
   "name": "n8n-nodes-uuid-generator",
   "version": "0.0.1",
-  "description": "",
+  "description": "Simple n8n uuid generator",
   "keywords": [
     "n8n-community-node-package",
     "uuid"
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://matheus_peluchi_ext@bitbucket.org/carrefour_ecommerce/infinitechs-n8n-oracle-connector.git"
+    "url": "https://github.com/matheuspeluchi/n8n-nodes-uuid.git"
   },
   "main": "index.js",
   "scripts": {
